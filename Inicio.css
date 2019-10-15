@@ -5,9 +5,9 @@
     font-family: 'Rubik', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+/* h1, h2, h3, h4, h5 {
     margin: 5px 0;
-}
+} */
 
 .container {
     max-width: 1280px;
@@ -36,27 +36,35 @@ h1, h2, h3, h4, h5 {
 .card-description {
     padding: 5px 20px;
 }
+.card-description h4 {
+    color: #666;
+}
+.card-description h3 {
+    color: #444;
+}
 .paquete-duracion {
     position: relative;
     top: -15px;
     left: 25px;
-    background-color: purple;
+    background-color: #270570;
     font-weight: bold;
     color: white;
-    padding: 3px;
+    padding: 5px;
+    font-size: 12px;
     border-radius: 5px;
 }
 
 .resaltado {
     background-color: rgb(3, 166, 145);;
     border-radius: 5px;
-    padding: 3px;
+    padding: 6px;
     color: white;
-    font-size: 14px;
+    font-size: 12px;
 }
 .paquete-include {
     border: 1px rgb(204, 204, 204) solid;
-    padding: 2px;
+    padding: 4px;
+    font-size: 12px;
     border-radius: 3px;
 }
 
@@ -64,13 +72,15 @@ h1, h2, h3, h4, h5 {
     padding: 5px 20px;
     border-top: 1px rgb(204, 204, 204) solid;
 }
-.paquete-descuentos {
+.paquete-descuento {
     position: relative;
-    right: -90px;
-    top: -10px;
+    left: 86px;
+    width: 75px;
+    bottom: 40px;
     background-color: rgb(3, 166, 145);
-    padding: 3px;
-    border-radius: 5px;
+    padding: 5px 10px;
+    border-radius: 20px 0 0px 20px;
+    color: white;
 }
 
 .orange {
