@@ -1,3 +1,81 @@
-*{
+/* *{
     margin: 0%;
+} */
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 5px 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.paquete-ofertas {
+    display: flex;
+}
+
+.card {
+    flex: 0 0 297px;
+    border: 1px rgb(204, 204, 204) solid;
+    border-radius: 15px;
+    max-width: 290px;
+    margin-right: 30px;
+}
+
+.card-image img{
+    width: 290px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-description {
+    padding: 5px 20px;
+}
+.paquete-duracion {
+    position: relative;
+    top: -15px;
+    left: 25px;
+    background-color: purple;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.resaltado {
+    background-color: rgb(3, 166, 145);;
+    border-radius: 5px;
+    padding: 3px;
+    color: white;
+    font-size: 14px;
+}
+.paquete-include {
+    border: 1px rgb(204, 204, 204) solid;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.card-precios {
+    padding: 5px 20px;
+    border-top: 1px rgb(204, 204, 204) solid;
+}
+.paquete-descuentos {
+    position: relative;
+    right: -90px;
+    top: -10px;
+    background-color: rgb(3, 166, 145);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.orange {
+    color: orangered;
+}
+.underline {
+    text-decoration: line-through;
 }
