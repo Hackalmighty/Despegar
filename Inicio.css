@@ -1,7 +1,9 @@
 *{
     margin: 0%;
     padding: 0%;
-    background-color: ;
+    list-style: none;
+    font-family: 'Roboto Slab';
+    outline: none;
 }
 #willy{
     display: flex;
@@ -13,4 +15,40 @@
 }
 .h2{
     
+}
+header{
+    width: 70%;
+     display: inline-block;
+    background-color: white;
+    /* justify-content: space-between; */
+    align-items: right;
+}
+.flex{
+    display: flex;
+    margin-left: 500px;
+}
+ul{
+    justify-content: space-between;
+    padding: 1px;
+}
+.nav{
+    flex: 1;
+    font-size: 15px;
+ }
+
+li{
+    padding: 1px;
+}
+
+i{
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+.flex :hover{
+    color: blueviolet;
+    font-style: bold;;
 }
